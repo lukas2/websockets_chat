@@ -1,0 +1,20 @@
+.row
+  .span12
+
+    %p
+      Chat
+
+    #chat.well
+      
+
+.row
+  .span12
+    %form#inputform
+      %label
+        Nickname:
+      %input#nickname{ :type => "text", :name => "nickname" }
+      %label
+        MSG:
+      %input#msg{ :type => "text", :name => "msg" }
+      %br
+      %input#sendbutton{ :type => "submit", :value => "SEND" }
